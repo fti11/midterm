@@ -1,0 +1,337 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.20f1 (577897200b8b) revision 5732503'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'ko' Physical Memory: 16263 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/home/midterm
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+12908
+Successfully changed project path to: C:/Users/home/midterm
+C:/Users/home/midterm
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [3632] Host "[IP] 192.168.0.3 [Port] 0 [Flags] 2 [Guid] 1429022052 [EditorId] 1429022052 [Version] 1048832 [Id] WindowsEditor(7,Dahyun) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [3632] Host "[IP] 192.168.0.3 [Port] 0 [Flags] 2 [Guid] 1429022052 [EditorId] 1429022052 [Version] 1048832 [Id] WindowsEditor(7,Dahyun) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 175.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.20f1 (577897200b8b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/home/midterm/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 620 (ID=0x5916)
+    Vendor:   Intel
+    VRAM:     8131 MB
+    Driver:   27.20.100.8730
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56492
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.042353 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 149.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.439 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1440ms)
+		BeginReloadAssembly (258ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (909ms)
+			LoadAssemblies (251ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (217ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (512ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (150ms)
+				BeforeProcessingInitializeOnLoad (5ms)
+				ProcessInitializeOnLoadAttributes (227ms)
+				ProcessInitializeOnLoadMethodAttributes (103ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.023063 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\home\midterm\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\home\midterm\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.536 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2537ms)
+		BeginReloadAssembly (322ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (1964ms)
+			LoadAssemblies (309ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (692ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (143ms)
+			SetupLoadedEditorAssemblies (786ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (197ms)
+				ProcessInitializeOnLoadAttributes (466ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
+				AfterProcessingInitializeOnLoad (38ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (31ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3049 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (113.8 KB). Loaded Objects now: 3512.
+Memory consumption went from 109.0 MB to 108.9 MB.
+Total: 6.555000 ms (FindLiveObjects: 0.383400 ms CreateObjectMapping: 2.193900 ms MarkObjects: 3.803200 ms  DeleteObjects: 0.173300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 334217.732879 seconds.
+  path: Assets/Supercyan Free Forest Sample/Textures/Skybox/px.png
+  artifactKey: Guid(531641a9d49e5d042b06c7ce3c963d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Textures/Skybox/px.png using Guid(531641a9d49e5d042b06c7ce3c963d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b27d0a082ebfdeede759d8345ac088a') in 0.314960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Supercyan Free Forest Sample/Textures/Skybox/nz.png
+  artifactKey: Guid(2938054f9f41a0b4788f0dea2ae84e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Textures/Skybox/nz.png using Guid(2938054f9f41a0b4788f0dea2ae84e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a16c847d9468b59c0f20ded0f7e945c5') in 0.044205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Supercyan Free Forest Sample/Textures/Skybox/pz.png
+  artifactKey: Guid(1f989a13f8ea5bf47a53d25432ab273d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Textures/Skybox/pz.png using Guid(1f989a13f8ea5bf47a53d25432ab273d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ecbefca56f6815168ced4f5d49852f9') in 0.030143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Supercyan Free Forest Sample/Textures/Skybox/nx.png
+  artifactKey: Guid(22a5243e756c4974cbd86e180f48fa4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Textures/Skybox/nx.png using Guid(22a5243e756c4974cbd86e180f48fa4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e272486891e6ac3b8a705c5265446de') in 0.038017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Supercyan Free Forest Sample/Textures/Skybox/py.png
+  artifactKey: Guid(a5ab032500bb60a43826c8050069d4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Textures/Skybox/py.png using Guid(a5ab032500bb60a43826c8050069d4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e0b3a7ffdd2ff15e7d872b07fd8902a') in 0.029727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Supercyan Free Forest Sample/Textures/Skybox/ny.png
+  artifactKey: Guid(8243bd7a07b5d0a4fa6ee10d95e5a578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Textures/Skybox/ny.png using Guid(8243bd7a07b5d0a4fa6ee10d95e5a578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ff60cd259e657b91b06fb18501e8851') in 0.047841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.860727 seconds.
+  path: Assets/Supercyan Free Forest Sample/Textures/Skybox
+  artifactKey: Guid(5c21b074e7442f54dbbcaf33913664fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Textures/Skybox using Guid(5c21b074e7442f54dbbcaf33913664fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '976678f5e6eee2074ef2861cf33e4a2e') in 0.010237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.112007 seconds.
+  path: Assets/04.Images/Supercyan Free Forest Sample/Scenes/MoodyNight/LightingData.asset
+  artifactKey: Guid(83359cfa09ec3a8409e5abf8de7fa62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/Supercyan Free Forest Sample/Scenes/MoodyNight/LightingData.asset using Guid(83359cfa09ec3a8409e5abf8de7fa62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Lighting data asset ‘LightingData’ is incompatible with the current Unity version because the scene it was baked for was not serialized. Please use Generate Lighting to rebuild the lighting data, or assign the target scene to the Lighting Data Asset in the inspector.
+ -> (artifact id: '486b5b6d8f2ff559898b35c1369130cd') in 0.029672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 256.924252 seconds.
+  path: Assets/04.Images/Matarial
+  artifactKey: Guid(994c06481675e4a4a8fea63ee47af047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/Matarial using Guid(994c06481675e4a4a8fea63ee47af047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e956e25e43259c19beb4ec83977ba981') in 0.007070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.699271 seconds.
+  path: Assets/04.Images/Materials
+  artifactKey: Guid(994c06481675e4a4a8fea63ee47af047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/Materials using Guid(994c06481675e4a4a8fea63ee47af047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f1c5cbdca43334b8404f4a9f49dbdc7') in 0.006162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 72.901603 seconds.
+  path: Assets/04.Images/Supercyan Free Forest Sample
+  artifactKey: Guid(eb585b738b048524aa82d2905d25aad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/Supercyan Free Forest Sample using Guid(eb585b738b048524aa82d2905d25aad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f46b2faed8c8d6729a0ac8dfb89620') in 0.006769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 59.466734 seconds.
+  path: Assets/04.Images/Supercyan Free Forest Sample/Textures/Stone
+  artifactKey: Guid(4745e97d36dedb0418b26c4faead0723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/Supercyan Free Forest Sample/Textures/Stone using Guid(4745e97d36dedb0418b26c4faead0723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '776ede3fee3cdc88e3c531a000eb11a2') in 0.010176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.003963 seconds.
+  path: Assets/04.Images/Supercyan Free Forest Sample/Textures/Stone/forestpack_stone_diffuse.png
+  artifactKey: Guid(c34ec4ea33f41784dada5802e39a8165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/Supercyan Free Forest Sample/Textures/Stone/forestpack_stone_diffuse.png using Guid(c34ec4ea33f41784dada5802e39a8165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be19e09146c5bc5caf225c342e2c6c89') in 0.022423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.096121 seconds.
+  path: Assets/04.Images/Supercyan Free Forest Sample/Textures/Foliage
+  artifactKey: Guid(8688d56883697284fb92ef62bf363355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/Supercyan Free Forest Sample/Textures/Foliage using Guid(8688d56883697284fb92ef62bf363355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51514b7d84a8607d8f23d083049e923f') in 0.011093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.957228 seconds.
+  path: Assets/04.Images/Supercyan Free Forest Sample/Textures/Ground
+  artifactKey: Guid(c677c28c3b0a9674ab9be09764ceafa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/Supercyan Free Forest Sample/Textures/Ground using Guid(c677c28c3b0a9674ab9be09764ceafa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b31db34fab0fb9c5e4aaf42ab19466de') in 0.014362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.382273 seconds.
+  path: Assets/04.Images/Supercyan Free Forest Sample/Textures/Ground/forestpack_moss_light_tile_diffuse.png
+  artifactKey: Guid(4900b2b933f056247806df532f93e2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/Supercyan Free Forest Sample/Textures/Ground/forestpack_moss_light_tile_diffuse.png using Guid(4900b2b933f056247806df532f93e2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06d59099810cf77eb18f79ec984d5acf') in 0.023904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.963009 seconds.
+  path: Assets/04.Images/Supercyan Free Forest Sample/Textures/Tree
+  artifactKey: Guid(a4f5f3a8c02e38645b3460d430c73f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/Supercyan Free Forest Sample/Textures/Tree using Guid(a4f5f3a8c02e38645b3460d430c73f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f38931d8befb4d891decea106452d5fc') in 0.006848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.040889 seconds.
+  path: Assets/04.Images/Supercyan Free Forest Sample/Textures/Tree/Fir
+  artifactKey: Guid(d21cabab2fd97b645a32b939854d2d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/Supercyan Free Forest Sample/Textures/Tree/Fir using Guid(d21cabab2fd97b645a32b939854d2d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bc2f2e39da679b082989b64caa0dc34') in 0.008385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.006332 seconds.
+  path: Assets/04.Images/Supercyan Free Forest Sample/Textures/Tree/Fir/forestpack_tree_fir_diffuse.png
+  artifactKey: Guid(bf82169728589cb40ab39408bc144c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/Supercyan Free Forest Sample/Textures/Tree/Fir/forestpack_tree_fir_diffuse.png using Guid(bf82169728589cb40ab39408bc144c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edb4580e1f22228b8ed9f21516f607bc') in 0.021297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.339430 seconds.
+  path: Assets/04.Images/Supercyan Free Forest Sample/Environment Pack Free Forest Sample Readme v1.0.pdf
+  artifactKey: Guid(b38226f7ff89304488651878bbf65734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/Supercyan Free Forest Sample/Environment Pack Free Forest Sample Readme v1.0.pdf using Guid(b38226f7ff89304488651878bbf65734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca54b1469fd95abeeaff2479db296adc') in 0.046833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.592067 seconds.
+  path: Assets/04.Images/Supercyan Free Forest Sample/Prefabs
+  artifactKey: Guid(eff4a63e5fb72db4094c7dce6e6ae0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/Supercyan Free Forest Sample/Prefabs using Guid(eff4a63e5fb72db4094c7dce6e6ae0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbb6c795c91391d82d4c8e5eba10163b') in 0.009711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.062802 seconds.
+  path: Assets/04.Images/Supercyan Free Forest Sample/Prefabs/High Quality
+  artifactKey: Guid(74f42c695c784cd43a543aad32fc5741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/Supercyan Free Forest Sample/Prefabs/High Quality using Guid(74f42c695c784cd43a543aad32fc5741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be9849892bf75d0ed3321777c04dfc21') in 0.383381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/04.Images/Supercyan Free Forest Sample/Prefabs/High Quality/Foliage
+  artifactKey: Guid(57263a63e2f03a648a91a20aba5220df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/Supercyan Free Forest Sample/Prefabs/High Quality/Foliage using Guid(57263a63e2f03a648a91a20aba5220df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edb24913f1cfca54f61cd16d9959d352') in 0.008219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001551 seconds.
+  path: Assets/04.Images/Supercyan Free Forest Sample/Prefabs/High Quality/Foliage/Grass
+  artifactKey: Guid(315b1946fb534604485ba8d18e16b69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/Supercyan Free Forest Sample/Prefabs/High Quality/Foliage/Grass using Guid(315b1946fb534604485ba8d18e16b69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd26a5dc1f4f269db1845bcec39ecd816') in 0.011500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.368400 seconds.
+  path: Assets/04.Images/Supercyan Free Forest Sample/Prefabs/High Quality/Foliage/Grass/forestpack_foliage_grassPatch_small_1.prefab
+  artifactKey: Guid(791c30b04e8fc1e4fbf198c410a652e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/Supercyan Free Forest Sample/Prefabs/High Quality/Foliage/Grass/forestpack_foliage_grassPatch_small_1.prefab using Guid(791c30b04e8fc1e4fbf198c410a652e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Supercyan/SupercyanShader': Couldn't open include file 'SupercyanShaderLighting.cginc'. at line 16
+
+Compiling Subshader: 0, Pass: FORWARD, Vertex program with DIRECTIONAL LIGHTPROBE_SH
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_FORWARDBASE UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING SHADER_API_GLES30 SHADOWS_SCREEN SHADOWS_SHADOWMASK UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING VERTEXLIGHT_ON
+Shader error in 'Supercyan/SupercyanShader': Couldn't open include file 'SupercyanShaderLighting.cginc'. at line 16
+
+Compiling Subshader: 0, Pass: FORWARD, Vertex program with DIRECTIONAL LIGHTPROBE_SH
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_FORWARDBASE UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING SHADER_API_GLES30 SHADOWS_SCREEN SHADOWS_SHADOWMASK UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING VERTEXLIGHT_ON
+Shader error in 'Supercyan/SupercyanShader': Couldn't open include file 'SupercyanShaderLighting.cginc'. at line 16
+
+Compiling Subshader: 0, Pass: FORWARD, Vertex program with DIRECTIONAL LIGHTPROBE_SH
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_FORWARDBASE UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING SHADER_API_GLES30 SHADOWS_SCREEN SHADOWS_SHADOWMASK UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING VERTEXLIGHT_ON
+Shader error in 'Supercyan/SupercyanShader': Couldn't open include file 'SupercyanShaderLighting.cginc'. at line 16
+
+Compiling Subshader: 0, Pass: FORWARD, Vertex program with DIRECTIONAL LIGHTPROBE_SH
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_FORWARDBASE UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON FOG_EXP FOG_EXP2 FOG_LINEAR INSTANCING_ON LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING SHADER_API_GLES30 SHADOWS_SCREEN SHADOWS_SHADOWMASK UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING VERTEXLIGHT_ON
+ -> (artifact id: '339861e202159fa55b8e7b111b3a34c9') in 0.666782 seconds 
